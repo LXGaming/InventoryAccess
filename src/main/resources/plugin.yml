@@ -1,0 +1,26 @@
+name: ${project.artifactId}
+main: io.github.lxgaming.inventoryaccess.InventoryAccess
+version: ${project.version}
+author: LX_Gaming
+website: http://www.lxgaming.github.io
+commands:
+  inventoryaccess:
+    description: Display plugin information.
+    usage: /<command>
+permissions:
+  InventoryAccess.Chest.ADVENTURE:
+    description: Allows player in ADVENTURE to access blocked chests.
+  InventoryAccess.Chest.SURVIVAL:
+    description: Allows player in SURVIVAL to access blocked chests.
+  InventoryAccess.Chest.CREATIVE:
+    description: Allows player in CREATIVE to access blocked chests.
+  InventoryAccess.Chest.SPECTATOR:
+    description: Allows player in SPECTATOR to access blocked chests.
+  InventoryAccess.Player.ADVENTURE:
+    description: Allows player in ADVENTURE to access another players inventory.
+  InventoryAccess.Player.SURVIVAL:
+    description: Allows player in SURVIVAL to access another players inventory.
+  InventoryAccess.Player.CREATIVE:
+    description: Allows player in CREATIVE to access another players inventory.
+  InventoryAccess.Player.SPECTATOR:
+    description: Allows player in SPECTATOR to access another players inventory.
